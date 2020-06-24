@@ -1,8 +1,11 @@
+// var userGuess = 
+// correctAnswer =
+
 var questions = [
 	{
 		title: "Question 1",
 		choices: ["Answer 1", "Answer 2", "Answer 3", "Answer 4"],
-		answer: "alerts"
+		answer: "Answer 1"
 	},
 	{
 		title: "Question 2",
@@ -24,6 +27,15 @@ var questions = [
 		choices: ["Answer 1", "Answer 2", "Answer 3", "Answer 4"],
 		answer: "Answer 4"
     }
-]
+];
+
+// for (var i=0; i < questions.length; i++) {
+//      if userGuess === correctAnswer {
+//          display "Correct";
+//     }
+//     else {
+//         disply "Wrong!"
+//     }
+// }
 
 // h2 attr style = "bold"
