@@ -5,12 +5,32 @@ var introEl = document.querySelectorAll(".card-title");
 var instructionsEl = document.querySelector(".card-text");
 
 // Create instructions page
-// var introPage = document.createElement(introEl);
-// introPage.textContent = "Coding Quiz";
-// document.body.appendChild(introPage);
+    // var introPage = document.createElement(introEl);
+    // introPage.textContent = "Coding Quiz";
+    // document.body.appendChild(introPage);
 
 // WHEN I click the start button
     // addEventListener("click", function() {}); for when starting quiz
+
+function startQuiz() {
+	// start timer function (need to make this)
+  // set text content of timer on DOM
+	// call getQuestion function
+}
+
+function getQuestion() {
+	// get the question/answer object from your questions array based on the current question index
+	// update the DOM with the current question
+  // clear out any old question choices  
+  // update the DOM with the current answer choices
+			// for loop that goes through the answer choices
+				// creates a button
+				// set a class attribute of "choice"
+				// set a value attribute of choice
+				// set text content of button to be choice
+				// append button to the DOM
+}
+
 
 // THEN a timer starts and I am presented with a question
     // Need to set interval timer 'setInterval(function(){  }, 1000);'
